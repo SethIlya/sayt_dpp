@@ -1,0 +1,74 @@
+.list::marker {
+    color: darkcyan;
+    font-size: 25px;
+}
+.photo1{
+
+    background: url(https://uagolos.com/wp-content/uploads/2021/03/image2.png) center no-repeat;
+}
+
+.photo2{
+    background: url(https://www.teledata.co.uk/hubfs/shutterstock_681211267.jpg)center no-repeat;
+}
+
+.sett_photo{
+    height: 250px;
+    width: 400px;
+    border: 1px 2px dashed silver;
+    margin: 8px;
+    box-shadow: 0 0 16px silver;
+    border-radius: 16px;
+    background-size: cover;
+    float: right; 
+    padding-left: 10px; 
+    padding-bottom: 10px; 
+    box-shadow: inset 0px 0px 10px rgba(0,0,0,5);
+
+}
+
+.text{
+    font-size: 18px;
+}
+
+.ramka_for_text1{
+    box-shadow: 0 0 15px purple;
+}
+
+.ramka_for_text2{
+    box-shadow: 0 0 15px greenyellow;
+}
+
+.ramka_for_text3{
+
+    box-shadow: 0 0 15px lightcoral;
+
+}
+
+.ramka_for_text4{
+    box-shadow: 0 0 15px lightskyblue;
+
+}
+
+.ramka_for_text5{
+    box-shadow: 0 0 15px darkred;
+    min-height: 250px !important;
+}
+
+.sett_border{
+    border-radius: 15px;
+    font-size: right;
+    padding: 15px;
+    max-width: 3000px;
+    min-height: 350px;
+    margin-top: 50px;
+    border-style: solid;
+    transition: all 0.5s; 
+}
+
+.sett_border:hover {
+    cursor: pointer;
+    background: rgb(152, 154, 190);
+    border-width: 4px; 
+    padding: 11px; 
+    box-shadow: 0 0 30px white;
+}
