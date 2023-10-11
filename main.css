@@ -51,18 +51,26 @@
 
 .ramka_for_text5{
     box-shadow: 0 0 15px darkred;
-    min-height: 250px !important;
 }
 
 .sett_border{
     border-radius: 15px;
     font-size: right;
     padding: 15px;
-    max-width: 3000px;
-    min-height: 350px;
+    width: 750px;
+    min-width: 550px;
+    max-height: 650px;
+    min-height: 450px;
     margin-top: 50px;
     border-style: solid;
     transition: all 0.5s; 
+}
+
+.flex_border{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-around;
 }
 
 .sett_border:hover {
@@ -71,4 +79,13 @@
     border-width: 4px; 
     padding: 11px; 
     box-shadow: 0 0 30px white;
+}
+
+@media screen and (max-width:490px){
+    .photo1{
+        display: none;
+    }
+    .photo2{
+        display:none;
+    }
 }
