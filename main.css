@@ -27,11 +27,12 @@
 }
 
 .text{
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .ramka_for_text1{
     box-shadow: 0 0 15px purple;
+    min-height: 350px;
 }
 
 .ramka_for_text2{
@@ -51,16 +52,26 @@
 
 .ramka_for_text5{
     box-shadow: 0 0 15px darkred;
+    min-height: 200px !important;
 }
 
+.ramka_for_text6{
+    border-style: solid;
+    box-shadow:  0 0 15px pink;
+    border-radius: 15px;
+    font-size: large;
+    margin: 20px;
+    padding: 15px;
+    max-width: 250px;
+    min-height: 300px;
+    transition: all 0.5s; 
+}
 .sett_border{
     border-radius: 15px;
     font-size: right;
     padding: 15px;
-    width: 750px;
-    min-width: 550px;
-    max-height: 650px;
-    min-height: 450px;
+    max-width: 1920px;
+    min-height: 350px;
     margin-top: 50px;
     border-style: solid;
     transition: all 0.5s; 
@@ -74,6 +85,14 @@
 }
 
 .sett_border:hover {
+    cursor: pointer;
+    background: rgb(152, 154, 190);
+    border-width: 4px; 
+    padding: 11px; 
+    box-shadow: 0 0 30px white;
+}
+
+.ramka_for_text6:hover {
     cursor: pointer;
     background: rgb(152, 154, 190);
     border-width: 4px; 
